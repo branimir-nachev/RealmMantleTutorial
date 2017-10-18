@@ -14,6 +14,13 @@
 		338FFB681F9655A300B8FFE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338FFB671F9655A300B8FFE7 /* Assets.xcassets */; };
 		338FFB6B1F9655A300B8FFE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338FFB691F9655A300B8FFE7 /* LaunchScreen.storyboard */; };
 		338FFB6E1F9655A300B8FFE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 338FFB6D1F9655A300B8FFE7 /* main.m */; };
+		338FFB761F96A04700B8FFE7 /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 338FFB751F96A04700B8FFE7 /* SessionManager.m */; };
+		338FFB791F96B67F00B8FFE7 /* ArticleListRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 338FFB781F96B67F00B8FFE7 /* ArticleListRequestModel.m */; };
+		338FFB7E1F96C19F00B8FFE7 /* ArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 338FFB7D1F96C19F00B8FFE7 /* ArticleModel.m */; };
+		338FFB811F96C46400B8FFE7 /* ArticleListResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 338FFB801F96C46400B8FFE7 /* ArticleListResponseModel.m */; };
+		338FFB841F97786000B8FFE7 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 338FFB831F97786000B8FFE7 /* APIManager.m */; };
+		338FFB871F9784FB00B8FFE7 /* ArticleRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 338FFB861F9784FB00B8FFE7 /* ArticleRealm.m */; };
+		B6442035255A60DEE7566A60 /* Pods_RealmMantleTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A799B5A1E01E9EB80FABC2 /* Pods_RealmMantleTutorial.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,21 @@
 		338FFB6A1F9655A300B8FFE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		338FFB6C1F9655A300B8FFE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		338FFB6D1F9655A300B8FFE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		338FFB741F96A04600B8FFE7 /* SessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
+		338FFB751F96A04700B8FFE7 /* SessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
+		338FFB771F96B67F00B8FFE7 /* ArticleListRequestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleListRequestModel.h; sourceTree = "<group>"; };
+		338FFB781F96B67F00B8FFE7 /* ArticleListRequestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleListRequestModel.m; sourceTree = "<group>"; };
+		338FFB7C1F96C19F00B8FFE7 /* ArticleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleModel.h; sourceTree = "<group>"; };
+		338FFB7D1F96C19F00B8FFE7 /* ArticleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleModel.m; sourceTree = "<group>"; };
+		338FFB7F1F96C46400B8FFE7 /* ArticleListResponseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleListResponseModel.h; sourceTree = "<group>"; };
+		338FFB801F96C46400B8FFE7 /* ArticleListResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleListResponseModel.m; sourceTree = "<group>"; };
+		338FFB821F97785F00B8FFE7 /* APIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		338FFB831F97786000B8FFE7 /* APIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		338FFB851F9784FB00B8FFE7 /* ArticleRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleRealm.h; sourceTree = "<group>"; };
+		338FFB861F9784FB00B8FFE7 /* ArticleRealm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleRealm.m; sourceTree = "<group>"; };
+		702BE8DD962AF0725104DB56 /* Pods-RealmMantleTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmMantleTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmMantleTutorial/Pods-RealmMantleTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		89A799B5A1E01E9EB80FABC2 /* Pods_RealmMantleTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmMantleTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98886E493EE7C7FD6FF047F /* Pods-RealmMantleTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmMantleTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmMantleTutorial/Pods-RealmMantleTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +58,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6442035255A60DEE7566A60 /* Pods_RealmMantleTutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FB64D54277D3AB7F99B208A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D98886E493EE7C7FD6FF047F /* Pods-RealmMantleTutorial.debug.xcconfig */,
+				702BE8DD962AF0725104DB56 /* Pods-RealmMantleTutorial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		338FFB4F1F9655A200B8FFE7 = {
 			isa = PBXGroup;
 			children = (
 				338FFB5A1F9655A200B8FFE7 /* RealmMantleTutorial */,
 				338FFB591F9655A200B8FFE7 /* Products */,
+				1FB64D54277D3AB7F99B208A /* Pods */,
+				B2EF928C2BD549F6EFAB4FD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,8 +106,44 @@
 				338FFB691F9655A300B8FFE7 /* LaunchScreen.storyboard */,
 				338FFB6C1F9655A300B8FFE7 /* Info.plist */,
 				338FFB6D1F9655A300B8FFE7 /* main.m */,
+				338FFB7A1F96BFA600B8FFE7 /* NetworkGroup */,
+				338FFB7B1F96C05200B8FFE7 /* ModelsGroup */,
 			);
 			path = RealmMantleTutorial;
+			sourceTree = "<group>";
+		};
+		338FFB7A1F96BFA600B8FFE7 /* NetworkGroup */ = {
+			isa = PBXGroup;
+			children = (
+				338FFB741F96A04600B8FFE7 /* SessionManager.h */,
+				338FFB751F96A04700B8FFE7 /* SessionManager.m */,
+				338FFB821F97785F00B8FFE7 /* APIManager.h */,
+				338FFB831F97786000B8FFE7 /* APIManager.m */,
+			);
+			path = NetworkGroup;
+			sourceTree = "<group>";
+		};
+		338FFB7B1F96C05200B8FFE7 /* ModelsGroup */ = {
+			isa = PBXGroup;
+			children = (
+				338FFB771F96B67F00B8FFE7 /* ArticleListRequestModel.h */,
+				338FFB781F96B67F00B8FFE7 /* ArticleListRequestModel.m */,
+				338FFB7C1F96C19F00B8FFE7 /* ArticleModel.h */,
+				338FFB7D1F96C19F00B8FFE7 /* ArticleModel.m */,
+				338FFB7F1F96C46400B8FFE7 /* ArticleListResponseModel.h */,
+				338FFB801F96C46400B8FFE7 /* ArticleListResponseModel.m */,
+				338FFB851F9784FB00B8FFE7 /* ArticleRealm.h */,
+				338FFB861F9784FB00B8FFE7 /* ArticleRealm.m */,
+			);
+			path = ModelsGroup;
+			sourceTree = "<group>";
+		};
+		B2EF928C2BD549F6EFAB4FD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89A799B5A1E01E9EB80FABC2 /* Pods_RealmMantleTutorial.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 338FFB711F9655A300B8FFE7 /* Build configuration list for PBXNativeTarget "RealmMantleTutorial" */;
 			buildPhases = (
+				5F91690BC20FF9899FE12CE1 /* [CP] Check Pods Manifest.lock */,
 				338FFB541F9655A200B8FFE7 /* Sources */,
 				338FFB551F9655A200B8FFE7 /* Frameworks */,
 				338FFB561F9655A200B8FFE7 /* Resources */,
+				139F8E47D5CF7F494D21055D /* [CP] Embed Pods Frameworks */,
+				26DF11DB272D79D65FC354DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,13 +215,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		139F8E47D5CF7F494D21055D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RealmMantleTutorial/Pods-RealmMantleTutorial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmMantleTutorial/Pods-RealmMantleTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26DF11DB272D79D65FC354DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmMantleTutorial/Pods-RealmMantleTutorial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F91690BC20FF9899FE12CE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealmMantleTutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		338FFB541F9655A200B8FFE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338FFB761F96A04700B8FFE7 /* SessionManager.m in Sources */,
 				338FFB601F9655A300B8FFE7 /* MasterViewController.m in Sources */,
+				338FFB841F97786000B8FFE7 /* APIManager.m in Sources */,
+				338FFB791F96B67F00B8FFE7 /* ArticleListRequestModel.m in Sources */,
+				338FFB7E1F96C19F00B8FFE7 /* ArticleModel.m in Sources */,
 				338FFB5D1F9655A300B8FFE7 /* AppDelegate.m in Sources */,
+				338FFB871F9784FB00B8FFE7 /* ArticleRealm.m in Sources */,
+				338FFB811F96C46400B8FFE7 /* ArticleListResponseModel.m in Sources */,
 				338FFB6E1F9655A300B8FFE7 /* main.m in Sources */,
 				338FFB631F9655A300B8FFE7 /* DetailViewController.m in Sources */,
 			);
@@ -282,6 +419,7 @@
 		};
 		338FFB721F9655A300B8FFE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98886E493EE7C7FD6FF047F /* Pods-RealmMantleTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +434,7 @@
 		};
 		338FFB731F9655A300B8FFE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702BE8DD962AF0725104DB56 /* Pods-RealmMantleTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

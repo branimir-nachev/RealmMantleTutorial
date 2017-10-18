@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ArticleRealm.h"
 
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) NSDate *detailItem;
+@property (strong, nonatomic) ArticleRealm *detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
 @end
